@@ -1,14 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{margin: 0;padding: 0;}
-.fd_layout{
+#hero{
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    text-align:center;
-    width:100%;
-    height:919px;
-    background-image:url("../assets/hero-bg.png");
+    background: linear-gradient(180.00deg, rgba(9.197244644165039, 8.92899227142334, 8.92899227142334, 1),rgba(16, 16, 16, 0) 100%),url("../assets/hero-bg.png");
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#hero .fd_layout{
+    width:50%;
+    text-align:center;
+    /* margin-left:auto;
+    margin-right:auto; 
+    margin:0 auto; */
+    
+}
+#hero .fd_layout .subtitle{
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+#hero .fd_layout .title{
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#hero .fd_layout .description{
+    opacity: 0.7;
+    color: rgba(255, 255, 255, 1);
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
 }
